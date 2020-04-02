@@ -1,58 +1,90 @@
-body {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    background-color: #27ee7a;
-    grid-template-rows: ".container"
-                        ".table";
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 30vh;  
+    background-color: #27ee73;
 }
 
+form {
+   position: relative;
+   width: 500px;
+   max-width: 100%;
+}
 
+form > input {
+    padding: 2.5%;
+    width: 100%;
+    font-size: 0.92em;
+    border: none;
+    border-radius: 50px;   
+}
+
+h1 {
+    margin-bottom: 1.25%;
+}
+
+form > button {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    padding: 2.01%;
+    border: none;
+    border-radius: 50px;
+    width: 30%;
+    font-size: .95em;
+    background-color: #BA55D3;
+    color: #fff;
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: scale(0.95);
+}
+
+button:active {
+    opacity: 0.8;
+}
 
 .container {
-    grid-area: ".container";
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-  /*  height: 20vh; */ 
-    background-color: #d8a6d4;
-    margin: 0 auto;
-}
-
-.num {    
-    width: 60%;
-    height: 10%;
-    border: 1px solid;
-    border-radius: 3px;
-    font-size: 20px;
-}
-.num:focus {
-    border: #27ee73;
-}
-
-.send {
-    width: 15%;
-    height: 10%;
-    margin-top: 20px;   
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-}
-.send:hover {
-    background-color: rgb(236, 155, 155);
-}
-
-.table {
-    grid-area: ".table"; 
-    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    height: 70%;
+    max-height: 100%;
+    background-color: #DCDCDC;
 }
-.table table th, td {
-    text-align: left;
+
+.table-elements {
+    list-style: none;
     width: 300px;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 3px;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    align-content: center;
+    background-color: #fff;
+}
+
+.table-elements-li {
+    text-align: center;
+    margin: 10px;
+    border-bottom: 1px solid #DCDCDC;    
+}
+
+.table-elements-li:nth-child(11) {
+    border: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.4%;
+    background-color: #27ee73;
+    color: #fff;
 }
