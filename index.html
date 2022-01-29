@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/base/style.css" />
+    <link rel="stylesheet" href="./css/components/header.css" />
     <title>Gerador de tabuada</title>
-</head>
-<body>
-    <header>
-        <h1>Tabuada</h1>
-
-        <form action="" class="form">
-            <input type="text" placeholder="Insira um número" autofocus>
-            <button>Enviar</button>
-        </form>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Tabuada</h1>
     </header>
 
     <section class="container">
-        <ul class="table-elements"></ul>
+      <form action="" class="form">
+        <input type="text" placeholder="Insira um número" autofocus />
+        <button>Enviar</button>
+      </form>
+      <ul class="table-elements"></ul>
     </section>
 
     <footer class="footer">
-        <p>Desenvolvido por Jonathan Martins</p>
+      <p>Desenvolvido por Jonathan Martins</p>
     </footer>
     <script src="./js/main.js"></script>
-</body>
+  </body>
 </html>
