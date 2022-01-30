@@ -6,7 +6,7 @@ const buttonEl = document.querySelector("button");
 
 const handleTable = (event) => {
   event.preventDefault();
-  const numero = Number(inputEl.value);
+  const numero = inputEl.value;
   const tabuada = retornaTabuada(numero);
   insertElementsIntoContainer(tabuada);
 };

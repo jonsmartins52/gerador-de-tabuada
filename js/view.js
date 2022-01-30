@@ -3,6 +3,11 @@ const tableElement = document.querySelector(".table-elements");
 const spinnerEl = document.querySelector(".spinner-wrapper");
 
 export const insertElementsIntoContainer = (tabuada) => {
+  if (typeof tabuada === "string") {
+    tableElement.innerHTML = `<li class="table-elements-li">${tabuada}</li>`;
+    return;
+  }
+
   showSpinner();
   tableElement.innerHTML = tabuada
     .map(({ num, resultado }) => {

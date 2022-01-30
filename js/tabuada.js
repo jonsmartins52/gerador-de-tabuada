@@ -12,10 +12,14 @@ const numeros = [
 ];
 
 export const retornaTabuada = (valor) => {
-  const tab = numeros.map((numero) => {
-    const newtab = { num: numero.num, resultado: numero.num * valor };
-    return newtab;
-  });
+  if (valor) {
+    const tab = numeros.map((numero) => {
+      const newtab = { num: numero.num, resultado: numero.num * valor };
+      return newtab;
+    });
 
-  return tab;
+    return tab;
+  }
+
+  return "Valor inválido!";
 };
