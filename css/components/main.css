@@ -3,9 +3,9 @@
   height: 75vh;
   padding: 0.5rem;
   margin-top: 0.3rem;
-  display: flex;
+  /* display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .multiplication-tableForm {
@@ -13,6 +13,9 @@
 }
 
 .multiplication-tableForm input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--secondaryColor);
   border: none;
   height: 3rem;
@@ -28,4 +31,26 @@
   text-align: center;
   font-size: 36;
   font-weight: bold;
+}
+
+.table-elements {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  background-color: var(--lightGray);
+  border-bottom-right-radius: 60px;
+  border-bottom: 2px solid var(--secondaryColor);
+  padding: 0.5rem;
+}
+
+.table-elements li {
+  font-size: 36;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.3rem;
+}
+
+.table-elements li:last-child {
+  margin-bottom: 0;
 }
