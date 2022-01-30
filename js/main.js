@@ -1,8 +1,9 @@
 import { retornaTabuada } from "./tabuada.js";
-import { insertElementsIntoContainer } from "./view.js";
+import { clean, insertElementsIntoContainer } from "./view.js";
 
 const inputEl = document.querySelector("input");
 const buttonEl = document.querySelector("button");
+const buttonCleanEl = document.querySelector(".clean");
 
 const handleTable = (event) => {
   event.preventDefault();
@@ -12,3 +13,4 @@ const handleTable = (event) => {
 };
 
 buttonEl.addEventListener("click", handleTable);
+buttonCleanEl.addEventListener("click", clean);
