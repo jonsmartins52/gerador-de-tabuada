@@ -82,7 +82,7 @@
   margin-bottom: 0;
 }
 
-.main button {
+.submit {
   display: block;
   margin: 1.2rem auto;
   background-color: var(--secondaryColor);
@@ -95,6 +95,22 @@
   font-size: 1.2rem;
 }
 
-.main button:active {
+.submit:active {
   opacity: 0.9;
+}
+
+.clean {
+  display: none;
+  position: relative;
+  left: 290px;
+  bottom: 150px;
+  z-index: 2;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: var(--secondaryColor);
+  border: none;
+  color: var(--lightGreen);
+  font-weight: bold;
+  font-size: 1.2rem;
 }
