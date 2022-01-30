@@ -1,8 +1,12 @@
 @import url(_reset.css);
 @import url(_variaveis.css);
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Fira Sans", sans-serif;
-  background-color: var(--primaryColor);
+  background-color: var(--lightGreen);
   color: var(--secondaryColor);
 }

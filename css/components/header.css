@@ -4,6 +4,10 @@
   justify-content: center;
   width: 100vw;
   height: 25vh;
+  background-color: var(--primaryColor);
+  border-bottom: 2px solid var(--secondaryColor);
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
 }
 
 .header h1 {

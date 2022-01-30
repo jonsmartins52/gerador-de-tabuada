@@ -1,0 +1,31 @@
+.main {
+  width: 100vw;
+  height: 75vh;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.multiplication-tableForm {
+  margin-top: 1rem;
+}
+
+.multiplication-tableForm input {
+  background-color: var(--secondaryColor);
+  border: none;
+  height: 3rem;
+  width: 80vw;
+  color: var(--lightGreen);
+  text-align: center;
+  font-size: 36;
+  font-weight: bold;
+}
+
+.multiplication-tableForm input::placeholder {
+  color: var(--lightGreen);
+  text-align: center;
+  font-size: 36;
+  font-weight: bold;
+}
