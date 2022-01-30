@@ -22,14 +22,14 @@
   width: 80vw;
   color: var(--lightGreen);
   text-align: center;
-  font-size: 36;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
 .multiplication-tableForm input::placeholder {
   color: var(--lightGreen);
   text-align: center;
-  font-size: 36;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .table-elements li {
-  font-size: 36;
+  font-size: 1.2rem;
   font-weight: bold;
   text-align: center;
   margin-bottom: 0.3rem;
@@ -53,4 +53,21 @@
 
 .table-elements li:last-child {
   margin-bottom: 0;
+}
+
+.main button {
+  display: block;
+  margin: 1.2rem auto;
+  background-color: var(--secondaryColor);
+  border: none;
+  border-radius: 3rem;
+  width: 60%;
+  height: 10%;
+  color: var(--lightGreen);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.main button:active {
+  opacity: 0.9;
 }
