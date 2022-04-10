@@ -1,0 +1,46 @@
+.clean {
+  display: none;
+  position: relative;
+  left: 71%;
+  bottom: 33%;
+  z-index: 2;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: var(--secondaryColor);
+  border: none;
+  color: var(--lightGreen);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 280px) {
+  .clean {
+    font-size: 1rem;
+    width: 40px;
+    height: 40px;
+    left: 73%;
+    bottom: 30%;
+  }
+}
+
+@media (min-width: 390px) {
+  .clean {
+    left: 73%;
+    bottom: 28%;
+  }
+}
+
+@media (min-width: 414px) {
+  .clean {
+    left: 73%;
+    bottom: 28%;
+  }
+}
+
+@media (min-width: 540px) {
+  .clean {
+    left: 77%;
+    bottom: 32%;
+  }
+}
