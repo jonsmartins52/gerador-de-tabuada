@@ -1,7 +1,7 @@
 .footer {
   display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer p {
@@ -11,10 +11,17 @@
 
 .icon-list {
   width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: right;
   padding-right: 0.3rem;
 }
 
-.icons-list__img {
+.icon__item {
   width: 30%;
+}
+
+.icons-list__img {
+  width: 50%;
 }
