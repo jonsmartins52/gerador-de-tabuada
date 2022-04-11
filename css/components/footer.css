@@ -25,3 +25,18 @@
 .icons-list__img {
   width: 50%;
 }
+
+@media (min-width: 970px) {
+  .footer {    
+    flex-direction: column;    
+  }
+
+  .footer p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .icon__item {
+    text-align: center;
+  }
+}
