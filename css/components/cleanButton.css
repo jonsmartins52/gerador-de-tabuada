@@ -55,5 +55,12 @@
     background-color: var(--primaryColor);
     color: var(--secondaryColor);
     font-size: 1.6rem;
+    cursor: pointer;
+    transition: all 1s linear;
+  }
+
+  .clean:hover {
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
   }
 }

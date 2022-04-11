@@ -100,6 +100,10 @@
 }
 
 @media (min-width: 720px) {
+  .table-elements {
+    border-radius: 0;
+  }
+
   .multiplication-tableForm {
     position: relative;
     max-width: 100%;
@@ -107,13 +111,19 @@
 
   .submit {
     position: absolute;
-    right: 10%;
-    top: 29%;
+    right: 8.5%;
+    top: 30.5%;
     border-radius: 0;
     width: 20%;
     height: 3rem;
     margin: 0;
     background-color: var(--primaryColor);
     color: var(--secondaryColor);
+    cursor: pointer;
+    transition: opacity 2s ease-out;
+  }
+
+  .submit:hover {
+    opacity: 0.6;
   }
 }
