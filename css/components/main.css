@@ -99,3 +99,21 @@
   opacity: 0.9;
 }
 
+@media (min-width: 720px) {
+  .multiplication-tableForm {
+    position: relative;
+    max-width: 100%;
+  }
+
+  .submit {
+    position: absolute;
+    right: 10%;
+    top: 29%;
+    border-radius: 0;
+    width: 20%;
+    height: 3rem;
+    margin: 0;
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+  }
+}
