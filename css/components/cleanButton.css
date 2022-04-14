@@ -47,7 +47,9 @@
 
 @media (min-width: 720px) {
   .clean {
-    position: static;
+    position: absolute;
+    top: 15%;
+    left: 70%;
     margin: 1.2rem auto;
     border-radius: 0;
     width: 15%;

@@ -9,4 +9,5 @@ body {
   font-family: "Fira Sans", sans-serif;
   background-color: var(--lightGreen);
   color: var(--secondaryColor);
+  overflow-x: hidden;
 }

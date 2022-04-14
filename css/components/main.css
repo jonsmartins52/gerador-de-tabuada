@@ -100,19 +100,29 @@
 }
 
 @media (min-width: 720px) {
-  .table-elements {
-    border-radius: 0;
+  .main {
+    position: relative;
   }
 
-  .multiplication-tableForm {
-    position: relative;
-    max-width: 100%;
+  .table-elements {
+    border-radius: 0;
+    margin: 0 0 0 0.5rem;
+    max-width: 50%;
+  }
+
+  .multiplication-tableForm {    
+    width: 50%;
+    margin-left: 0.5rem;
+  }
+
+  .multiplication-tableForm input {
+    width: 100%;
   }
 
   .submit {
     position: absolute;
-    right: 8.5%;
-    top: 30.5%;
+    top: 4%;
+    right: 10%;
     border-radius: 0;
     width: 20%;
     height: 3rem;

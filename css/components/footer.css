@@ -26,6 +26,12 @@
   width: 50%;
 }
 
+@media (min-width: 720px) {
+  .icon__item {
+    width: 15%;
+  }
+}
+
 @media (min-width: 970px) {
   .footer {    
     flex-direction: column;    
