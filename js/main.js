@@ -1,5 +1,5 @@
 import { retornaTabuada } from "./tabuada.js";
-import { clean, insertElementsIntoContainer } from "./view.js";
+import { clean, insertElementsIntoContainer, switchMode } from "./view.js";
 
 const inputEl = document.querySelector("input");
 const buttonEl = document.querySelector("button");
@@ -15,4 +15,4 @@ const handleTable = (event) => {
 
 buttonEl.addEventListener("click", handleTable);
 buttonCleanEl.addEventListener("click", clean);
-iconEl.addEventListener("click", () => console.log("trocar tema"));
+iconEl.addEventListener("click", switchMode);
