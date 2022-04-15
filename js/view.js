@@ -61,6 +61,15 @@ function toggleClass() {
 }
 
 function toggleImage() {
-  iconEl.src =
-    iconEl.getAttribute("src") === ICONS.moon ? ICONS.sun : ICONS.moon;
+  if (iconEl.getAttribute("src") === ICONS.moon) {
+    iconEl.setAttribute("src", ICONS.sun);
+    iconEl.setAttribute("alt", "ícone Sol");
+    return;
+  }
+
+  if (iconEl.getAttribute("src") === ICONS.sun) {
+    iconEl.setAttribute("src", ICONS.moon);
+    iconEl.setAttribute("alt", "ícone Lua");
+    return;
+  }
 }
