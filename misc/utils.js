@@ -10,4 +10,9 @@ export const utils = {
     clean: "dark-mode__clean",
     table: "dark-mode__table",
   },
+
+  ICONS: {
+    sun: "./assets/img/sun-solid.svg",
+    moon: "./assets/img/moon-solid.svg",
+  },
 };
