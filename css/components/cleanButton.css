@@ -66,3 +66,11 @@
     color: var(--primaryColor);
   }
 }
+
+.dark-mode__clean {
+  background-color: var(--darkModePrimaryColor);
+}
+
+.dark-mode__clean:hover {
+  background-color: var(--darkModePrimaryColor);  
+}
