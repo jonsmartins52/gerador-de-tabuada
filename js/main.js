@@ -14,3 +14,9 @@ const handleTable = (event) => {
 buttonSubmit.addEventListener("click", handleTable);
 buttonClean.addEventListener("click", clean);
 iconEl.addEventListener("click", switchMode);
+inputEl.addEventListener("keypress", (event) => {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    buttonSubmit.click();
+  }
+});
