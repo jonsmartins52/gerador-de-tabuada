@@ -53,6 +53,12 @@
   transition: 2s;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
 .table-input::placeholder {
   color: var(--lightGreen);
   text-align: center;
@@ -69,6 +75,7 @@
   border-bottom-right-radius: 60px;
   border-bottom: 2px solid var(--secondaryColor);
   padding: 0.5rem;
+  transition: 2s;
 }
 
 .table-elements li {
