@@ -1,10 +1,8 @@
 import { retornaTabuada } from "./tabuada.js";
 import { clean, insertElementsIntoContainer, switchMode } from "./view.js";
+import { elements } from "../misc/elements.js";
 
-const inputEl = document.querySelector("input");
-const buttonEl = document.querySelector("button");
-const buttonCleanEl = document.querySelector(".clean");
-const iconEl = document.querySelector(".icon");
+const { inputEl, buttonSubmit, buttonClean, iconEl } = elements;
 
 const handleTable = (event) => {
   event.preventDefault();
@@ -13,6 +11,6 @@ const handleTable = (event) => {
   insertElementsIntoContainer(tabuada);
 };
 
-buttonEl.addEventListener("click", handleTable);
-buttonCleanEl.addEventListener("click", clean);
+buttonSubmit.addEventListener("click", handleTable);
+buttonClean.addEventListener("click", clean);
 iconEl.addEventListener("click", switchMode);
