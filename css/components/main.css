@@ -38,7 +38,7 @@
   margin-top: 1rem;
 }
 
-.multiplication-tableForm input {
+.table-input {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -52,7 +52,7 @@
   font-weight: bold;
 }
 
-.multiplication-tableForm input::placeholder {
+.table-input::placeholder {
   color: var(--lightGreen);
   text-align: center;
   font-size: 1.2rem;
@@ -135,4 +135,22 @@
   .submit:hover {
     opacity: 0.6;
   }
+}
+
+.dark-mode__table {
+  background-color: var(--darkModeSecondaryColor);
+}
+
+.dark-mode__input {
+  background-color: var(--darkModePrimaryColor);
+  color: var(--primaryColor);
+}
+
+.dark-mode__input::placeholder {
+  color: var(--primaryColor);
+}
+
+.dark-mode__submit {
+  background-color: var(--darkModePrimaryColor);
+  color: var(--primaryColor);
 }
