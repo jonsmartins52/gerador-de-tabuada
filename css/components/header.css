@@ -8,6 +8,7 @@
   border-bottom: 2px solid var(--secondaryColor);
   border-bottom-left-radius: 60px;
   border-bottom-right-radius: 60px;
+  transition: 2s;
 }
 
 .icon {
